@@ -1,6 +1,6 @@
 # Common Cookie Finder
 
-This is a simple tool for finding what cookie was logged the most times on a given date.
+This is a simple tool for finding what cookie was logged the most times on a given date. It was written using `python 3.8.3`, `pytest 5.3.5`, and `argparse 1.1`.
 
 ## Usage
 
@@ -10,7 +10,7 @@ This is a simple tool for finding what cookie was logged the most times on a giv
 
 ## Testing
 
-To test this, you will need `pytest-5.3.5`.
+To test this, you will need `pytest-5.3.5`. (Your milage may vary on different versions)
 
 Run:
 ```
