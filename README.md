@@ -4,9 +4,17 @@ This is a simple tool for finding what cookie was logged the most times on a giv
 
 ## Usage
 
-* `python most_common_cookie.py COOKIE_LOG_PATH -d DATE`
-    * Prints the most common cookie from the given file on the given date to `STDOUT`
-* `python most_common_cookie.py -h` prints this usage statement.
+The main script is at `src/most_common_cookie.py`.
+
+usage: most_common_cookie.py [-h] -d DATE CSV_PATH
+
+positional arguments:
+  CSV_PATH    Filepath to a cookie csv to analyze.
+
+optional arguments:
+  -h, --help  show this help message and exit.
+  -d DATE     Date to search for cookies.
+
 
 ## Testing
 
