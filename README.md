@@ -9,7 +9,7 @@ It was written using `python 3.8.3`, `pytest 5.3.5`, and `argparse 1.1`.
 The main script is at `src/most_common_cookie.py`.
 
 ```
-usage: most_common_cookie.py [-h] -d DATE CSV_PATH
+usage: python most_common_cookie.py [-h] -d DATE CSV_PATH
 
 positional arguments:
   `CSV_PATH`    Filepath to a cookie csv to analyze.
