@@ -5,6 +5,7 @@ from src import most_common_cookie as mcc
 def test_cookie_parser():
     """
     Validates that the cookie csv parser returns the correct format.
+    Also validates parse_timestamp by checking that total formatting is correct.
     """
     cookies = mcc.parse_cookies_csv("./test/data/test_cookies.csv")
 
