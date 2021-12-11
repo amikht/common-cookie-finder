@@ -1,20 +1,24 @@
 # Common Cookie Finder
 
-This is a simple tool for finding what cookie was logged the most times on a given date. It was written using `python 3.8.3`, `pytest 5.3.5`, and `argparse 1.1`.
+This is a simple tool for finding what cookie was logged the most times on a given date.
+
+It was written using `python 3.8.3`, `pytest 5.3.5`, and `argparse 1.1`.
 
 ## Usage
 
 The main script is at `src/most_common_cookie.py`.
 
+```
 usage: most_common_cookie.py [-h] -d DATE CSV_PATH
 
 positional arguments:
-  CSV_PATH    Filepath to a cookie csv to analyze.
+  `CSV_PATH`    Filepath to a cookie csv to analyze.
 
 optional arguments:
   -h, --help  show this help message and exit.
-  -d DATE     Date to search for cookies.
-
+  
+  -d DATE     Date to search for cookies. Formatted YYYY-mm-dd
+```
 
 ## Testing
 
