@@ -15,7 +15,9 @@ def parse_timestamp(timestamp: str):
 
     return: dict
     """
-    timestamp = timestamp.split("T") # Separate date from time
+    if timestamp == "":
+        return
+    timestamp = timestamp.strip("\n").split("T") # Separate date from time
     result = {}
     result["date"] = timestamp[0]
     time = timestamp[1].split("+") # Separate timezone from time
@@ -77,7 +79,7 @@ def find_most_common_cookie(cookies: dict, date: str):
         for timestamp in timestamps:
             if timestamp["date"] == date:
                 current_count += 1
-        
+
         if current_count > cookie_count:
             cookie_count = current_count
             most_common_cookies = [1, cookie]
